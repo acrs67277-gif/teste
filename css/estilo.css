@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    background-color: #2024E8;
+    color: #00fff2;
+    text-align: justify;
+}
+
+header {
+    background-color: #8d8d8d;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #00fff2;
+    border-radius: 0.5em;
+}
+
+header h1 {
+    font-size: 25px;
+    color: #2521e7;
+    text-align: center;
+}
+
+p#biografia {
+    font-size: 19px;
+    color: #0f0cc8;
+    text-align: center;
+}
+
+p#intro {
+    font-size: 18px;
+    color: #821c87;
+}
+
+p#intro strong i {
+    color: #00fff2;
+    margin: -6px;
+    font-weight: 900;
+}
+
+main h2 {
+    font-size: 18px;
+    color: #00fff2;
+    text-align: center;
+    background-color: #8d8d8d;
+    padding: 6px;
+    margin: 5px;
+    border: 1px solid #00fff2;
+    border-radius: 0.3em;
+}
