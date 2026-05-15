@@ -1,0 +1,57 @@
+JAVASCRIPT
+A história do JavaScript é, provavelmente, a maior "volta por cima" da computação. O que começou como um projeto apressado de 10 dias para fazer imagens piscarem em um navegador, tornou-se a linguagem de programação mais popular do planeta.
+
+Aqui está a trajetória do JS, de um "patinho feio" ao motor da economia digital:
+
+1. O Nascimento Relâmpago (1995)
+Em meados dos anos 90, a guerra dos navegadores estava começando. A Netscape dominava o mercado, mas precisava de uma linguagem que desse vida às páginas estáticas.
+
+Brendan Eich: Em maio de 1995, o engenheiro da Netscape escreveu o protótipo da linguagem em apenas 10 dias.
+
+A Confusão do Nome: Inicialmente chamava-se Mocha, depois LiveScript. No entanto, como o Java era a tecnologia "da moda", o departamento de marketing decidiu mudar o nome para JavaScript para pegar carona no sucesso da Sun Microsystems.
+
+Dica: JavaScript e Java têm a mesma relação que "Carro" e "Carrossel" — quase nenhuma.
+
+2. A Padronização e a Era do Caos (1997 - 2008)
+Para evitar que a Microsoft (com seu JScript no Internet Explorer) criasse sua própria versão da web, o JavaScript foi levado à ECMA International para ser padronizado. Surgiu então o ECMAScript (ES).
+
+A Guerra dos Browsers: Durante anos, o que funcionava no Netscape não funcionava no Internet Explorer. Os desenvolvedores viviam um pesadelo de compatibilidade.
+
+O Surgimento do AJAX (2005): Tudo mudou quando o Google mostrou (com o Gmail e o Maps) que era possível carregar dados em segundo plano sem atualizar a página inteira. O JS deixou de ser "brinquedo" para se tornar uma ferramenta de engenharia.
+
+jQuery (2006): Uma biblioteca que facilitou a vida de todos ao "esconder" as diferenças entre os navegadores sob uma sintaxe simples.
+
+3. A Revolução do V8 e do Node.js (2008 - 2009)
+Dois eventos mudaram o destino do JS para sempre:
+
+Google V8: O Google lançou o navegador Chrome com um motor chamado V8, que compilava JavaScript de forma absurdamente rápida.
+
+Node.js (2009): Ryan Dahl pegou o motor V8 e o levou para fora do navegador. Agora, era possível usar JavaScript no servidor (backend). O JS finalmente saiu da "prisão" do browser e conquistou computadores e servidores.
+
+4. A Era Moderna: Frameworks e o ES6 (2010 - Hoje)
+A linguagem amadureceu e se tornou a base para aplicações complexas.
+
+A Explosão de Frameworks: Surgiram Angular, React e Vue, permitindo que sites se comportassem como aplicativos nativos (SPAs - Single Page Applications).
+
+ECMAScript 6 (ES2015): Foi a maior atualização da história da linguagem. O JS ganhou classes, módulos, promessas e uma sintaxe muito mais elegante e poderosa.
+
+TypeScript: Criado pela Microsoft, o TypeScript adicionou "tipagem" ao JS, tornando-o robusto o suficiente para grandes corporações.
+
+5. JavaScript Hoje: Está em Tudo
+Hoje, o JavaScript não é apenas uma linguagem de web; é um ecossistema onipresente:
+
+Web: React, Vue, Svelte, Next.js.
+
+Mobile: React Native (Apps Android e iOS).
+
+Desktop: Electron (WhatsApp Desktop, VS Code, Discord são feitos em JS).
+
+IoT: Robôs, drones e geladeiras inteligentes rodam código JavaScript.
+
+Resumo das Fases
+--------------------------------------------------------------------
+Época,Status,Foco
+1995,Recém-nascido,Validação de formulários e animações bobas.
+2005,Adolescente Rebebelde,AJAX e o início das aplicações dinâmicas.
+2009,Adulto Independente,Surgimento do Node.js (conquista do backend).
+2015,Profissional Sênior,Padronização moderna (ES6) e frameworks robustos.

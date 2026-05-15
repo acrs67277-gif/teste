@@ -1,0 +1,48 @@
+Portugol
+A história do Portugol é única porque, ao contrário das outras linguagens que você perguntou, ele não foi criado para construir sistemas complexos ou aplicativos de celular, mas sim para ser uma ponte. Ele é uma ferramenta de ensino, projetada para remover a barreira do inglês e da sintaxe rígida para quem está começando.
+
+Aqui está a trajetória dessa linguagem que é o primeiro passo de quase todo programador brasileiro:
+
+1. O Conceito: Pseudocódigo e Algoritmos
+Antes do "Portugol" existir com esse nome, professores de computação já utilizavam o conceito de Pseudocódigo.
+
+O Problema: Aprender a lógica de programação (laços, condições, variáveis) ao mesmo tempo em que se luta com o inglês e as chaves {} do C ou Java era muito difícil para iniciantes.
+
+A Solução: Criar uma linguagem que imitasse a estrutura de linguagens de alto nível, mas usando termos em português como leia, escreva, se, então e enquanto.
+
+2. A Origem do Nome (Anos 80 - 90)
+O nome Portugol é uma aglutinação de Português com ALGOL (uma linguagem de programação dos anos 50 que influenciou quase tudo o que veio depois).
+
+Não houve um "único inventor" no início, mas sim uma padronização acadêmica feita por professores como Antônio Manso e Sérgio Rossi, que buscavam uma forma de ensinar algoritmos de maneira estruturada nas universidades.
+
+3. O Marco: O VisuAlg (Anos 2000)
+Por muito tempo, o Portugol era escrito apenas no papel ou em editores de texto simples. Isso mudou com o VisuAlg, criado pelo professor Cláudio Morgado de Souza.
+
+O Simulador: O VisuAlg permitiu que os estudantes finalmente "rodassem" o Portugol. Ele mostrava os valores das variáveis mudando em tempo real e tinha uma interface simples.
+
+Impacto: Tornou-se o padrão nas escolas e faculdades técnicas do Brasil. Quase todos os cursos de "Lógica de Programação" dos anos 2000 e 2010 utilizaram o VisuAlg.
+
+4. A Modernização: Portugol Studio (Anos 2010 - Hoje)
+Com o tempo, o VisuAlg começou a parecer datado. Surgiu então o Portugol Studio, desenvolvido pela UNIVALI (Universidade do Vale do Itajaí).
+
+Recursos Modernos: O Portugol Studio trouxe uma interface de "gente grande" (IDE), com realce de cores, autocompletar e até bibliotecas para criação de jogos e gráficos.
+
+Portugol 2.0: Ele introduziu uma sintaxe mais próxima do C e Java (usando chaves {} e tipagem mais clara), preparando melhor o aluno para o mercado de trabalho real.
+
+5. Por que o Portugol ainda é importante?
+Apesar de existirem linguagens modernas e simples como o Python, o Portugol continua sendo uma ferramenta pedagógica poderosa no Brasil e em países de língua portuguesa por três motivos:
+
+Eliminação da Barreira Linguística: O aluno foca na lógica (o "como fazer") antes de focar na sintaxe (o "como escrever").
+
+Estrutura Rígida: Ao contrário do Python, o Portugol muitas vezes exige que você declare variáveis e tipos, o que ensina como o computador funciona por baixo dos panos.
+
+Portabilidade Mental: Uma vez que você entende o que é um escolha-caso ou um para em Portugol, aprender switch-case ou for em qualquer outra linguagem leva segundos.
+
+Comparação de Evolução
+-----------------------------------------------------------------------------------------------------------
+Característica,Pseudocódigo (Papel),VisuAlg (Clássico),Portugol Studio (Moderno)
+Execução,Manual (Teste de Mesa),Simulador Básico,IDE Completa
+Sintaxe,Livre / Acadêmica,Pascal-like (inicio...fimalgoritmo),C-like (funcao inicio() { })
+Gráficos,Nenhum,Apenas Texto,Suporte a Jogos e Sons
+-----------------------------------------------------------------------------------------------------------
+Resumo: O Portugol é a "rodinha da bicicleta" da programação. Ele não serve para você viajar o mundo, mas é ele quem garante que você aprenda a se equilibrar antes de subir em uma moto de alta cilindrada como o C++ ou o Rust.

@@ -1,0 +1,62 @@
+PYTHON
+A história do Python é uma das mais inspiradoras da computação, pois prova que uma linguagem pode ser poderosa sem ser excessivamente complexa. Criada para ser legível e produtiva, ela se tornou a linguagem favorita para Ciência de Dados e Inteligência Artificial.
+
+Aqui está a trajetória do Python, desde um projeto de férias até o topo do mundo:
+
+1. O Projeto de Natal (1989 – 1991)
+No final de 1989, o programador holandês Guido van Rossum trabalhava no CWI (Instituto Nacional de Pesquisa para Matemática e Ciência da Computação) na Holanda.
+
+A Origem: Durante as férias de Natal, Guido procurava um projeto de programação "hobby" para mantê-lo ocupado enquanto o escritório estava fechado.
+
+A Influência: Ele queria criar uma sucessora para a linguagem ABC, na qual ele tinha trabalhado. O objetivo era manter a facilidade de leitura do ABC, mas adicionar capacidades reais de manipulação de sistemas e extensibilidade.
+
+O Nome: Ao contrário do que muitos pensam, o nome não vem da cobra píton, mas sim do grupo de comédia britânico Monty Python, do qual Guido era um grande fã.
+
+2. Python 1.0: O Lançamento (1994)
+Em 1991, o código foi publicado pela primeira vez. Em 1994, a versão 1.0 foi lançada com recursos que já mostravam sua identidade:
+
+Ferramentas de programação funcional (lambda, map, filter, reduce).
+
+Um sistema de módulos que facilitava a organização do código.
+
+O Zen do Python: Uma coleção de 19 princípios de design (como "Bonito é melhor que feio" e "Simples é melhor que complexo") que guia o desenvolvimento da linguagem até hoje.
+
+3. Python 2.0: A Maturidade (2000)
+Lançado em outubro de 2000, o Python 2.0 trouxe recursos que o tornaram uma ferramenta séria para grandes empresas.
+
+List Comprehensions: Uma forma elegante de criar listas.
+
+Coleta de Lixo (Garbage Collection): Melhoria automática na gestão de memória.
+
+Crescimento da Comunidade: Foi nesta fase que bibliotecas fundamentais como NumPy e Pandas começaram a surgir, plantando as sementes para o domínio do Python na análise de dados.
+
+4. O Grande Cisma: Python 3.0 (2008)
+Em 2008, foi lançada a versão 3.0. Esta foi uma decisão corajosa e controversa:
+
+Incompatibilidade: O Python 3 "quebrou" a compatibilidade com o Python 2 para corrigir erros de design fundamentais e modernizar o tratamento de textos (Unicode por padrão).
+
+A Transição Lenta: Por quase uma década, a comunidade ficou dividida. Muitas empresas resistiram à migração porque seus sistemas antigos não rodavam na nova versão. O Python 2 só foi oficialmente "aposentado" em 1º de janeiro de 2020.
+
+5. A Explosão: Data Science e IA (2012 – Hoje)
+O que realmente levou o Python ao topo não foi apenas a linguagem em si, mas as bibliotecas criadas para ela.
+
+Científico e Analítico: Com o boom do Big Data, ferramentas como Scikit-learn, TensorFlow e PyTorch escolheram o Python como interface principal.
+
+Simplicidade: Acadêmicos e cientistas (que não eram programadores profissionais) adotaram o Python por ser fácil de aprender e ensinar.
+
+Basta Instalar: O gerenciador de pacotes pip e o repositório PyPI facilitaram o compartilhamento de código em uma escala global.
+
+6. O Legado de Guido e a Governança Atual
+Em 2018, Guido van Rossum renunciou ao título de BDFL (Benevolent Dictator For Life ou Ditador Benevolente Vitalício), após quase 30 anos liderando a linguagem.
+
+Hoje, o Python é governado por um Conselho Diretor (Steering Council) eleito pela comunidade.
+
+A linguagem continua evoluindo, focando agora em performance (projeto Faster CPython) para competir em velocidade com linguagens como C++ e Java em certas tarefas.
+
+Por que o Python venceu?
+-------------------------------------------------------------------------------------
+Fator,Impacto
+Legibilidade,"Código que parece inglês, fácil de ler e manter."
+Versatilidade,"Serve para Web (Django), Ciência de Dados, Automação e Scripting."
+Comunidade,Milhões de bibliotecas prontas para quase qualquer tarefa.
+Integração,"Funciona como uma ""cola"", unindo sistemas escritos em diferentes linguagens."

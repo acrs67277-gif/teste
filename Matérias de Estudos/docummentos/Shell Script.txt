@@ -1,0 +1,58 @@
+Shell Script
+A história do Shell Script é a história da interface entre o homem e a máquina nos sistemas operacionais. Ele nasceu da necessidade de automatizar tarefas repetitivas dentro do Unix, transformando o terminal de um simples lugar para digitar comandos em um ambiente de programação completo.
+
+Aqui está a linha do tempo dessa evolução:
+
+1. O Antecessor: Thompson Shell (1971)
+Nos primórdios do Unix (desenvolvido nos laboratórios Bell), Ken Thompson criou o primeiro shell, conhecido simplesmente como sh.
+
+Limitação: Era muito básico. Ele não tinha variáveis, nem estruturas de controle (como if ou for). Servia apenas para executar comandos um após o outro.
+
+O Conceito de Pipe: Foi aqui que nasceu o conceito de Pipes (|), permitindo que a saída de um programa fosse a entrada de outro, a base da filosofia Unix.
+
+2. A Revolução: Bourne Shell (1977)
+O Shell Script como conhecemos hoje começou com Stephen Bourne. Ele reescreveu o sh para o Unix Version 7.
+
+A Linguagem: O Bourne Shell introduziu variáveis, fluxos de decisão e loops. Pela primeira vez, o shell não era apenas um executor de comandos, mas uma linguagem de programação interpretada.
+
+Legado: Até hoje, quase todos os scripts começam com a famosa linha #!/bin/sh, uma referência direta ao trabalho de Bourne.
+
+3. O C-Shell e o KornShell (Anos 80)
+Conforme o Unix se espalhava, novas necessidades surgiam, levando a uma "guerra de shells":
+
+C-Shell (csh): Criado por Bill Joy (fundador da Sun Microsystems). Ele usava uma sintaxe parecida com a linguagem C, que era popular entre programadores, mas era criticado por ter bugs em scripts complexos.
+
+KornShell (ksh): Criado por David Korn. Ele tentou unir o melhor dos dois mundos: a compatibilidade do Bourne Shell com os recursos interativos (como histórico de comandos) do C-Shell. Tornou-se o padrão em sistemas corporativos.
+
+4. O Gigante: BASH (1989)
+Com a criação do projeto GNU por Richard Stallman, era necessário um shell de código aberto que não dependesse das licenças do Unix original.
+
+O Nome: Brian Fox criou o BASH (Bourne-Again Shell), um trocadilho com "nascido de novo" e "Shell de Bourne".
+
+Domínio: O Bash incorporou quase todos os recursos do ksh e csh. Quando o Linux foi lançado e o adotou como shell padrão, o Bash tornou-se a "língua materna" dos administradores de sistemas em todo o mundo.
+
+5. Zsh e o Futuro Moderno (Anos 90 - Hoje)
+Embora o Bash continue sendo o padrão na maioria dos servidores, novos shells surgiram focados na experiência do usuário:
+
+Zsh (Z Shell): Lançado em 1990 por Paul Falstad. Ele é uma versão "turbinada" do Bash, com melhor autocompletar e correções de erros. Em 2019, a Apple substituiu o Bash pelo Zsh como padrão no macOS.
+
+Fish (Friendly Interactive Shell): Focado totalmente na facilidade de uso e sugestões inteligentes de comandos.
+
+Por que o Shell Script continua essencial?
+Mesmo com linguagens modernas como Python, o Shell Script sobrevive por três pilares:
+
+Onipresença: Todo sistema Linux/Unix/macOS já vem com o shell instalado. Você não precisa instalar nada para rodar um script.
+
+Colagem de Sistemas: Ele é a "cola" perfeita para unir programas diferentes. Se você tem um programa em C, um em Python e um comando do sistema, o Shell Script os faz trabalhar juntos em harmonia.
+
+Administração e DevOps: Para automação de servidores, deploys em nuvem (AWS, Azure) e pipelines de CI/CD, o shell ainda é a ferramenta mais rápida e direta.
+
+Tabela Comparativa
+Shell,Criador,Ano,Característica Principal
+sh,Stephen Bourne,1977,O padrão original e minimalista.
+csh,Bill Joy,1978,Sintaxe baseada em C.
+ksh,David Korn,1983,Introduziu recursos avançados de produtividade.
+bash,Brian Fox,1989,O mais popular e padrão no Linux.
+zsh,Paul Falstad,1990,Extremamente customizável (Padrão no Mac).
+---------------------------------------------------------------------------------------------------------------------------
+Resumo: O Shell Script é a prova de que uma boa ideia — a de que comandos simples podem ser combinados para resolver problemas complexos — nunca envelhece. Ele começou em terminais de teletipo e hoje gerencia os maiores data centers do planeta.

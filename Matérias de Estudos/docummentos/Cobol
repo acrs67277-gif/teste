@@ -1,0 +1,47 @@
+Cobol
+A história do COBOL (Common Business-Oriented Language) é uma das mais fascinantes da tecnologia, pois é a história de uma linguagem que se recusou a morrer. Criada para ser a "língua franca" dos negócios, ela ainda sustenta a economia global hoje, processando bilhões de transações bancárias diariamente.
+
+Aqui está a trajetória da linguagem que move o dinheiro do mundo:
+
+1. O Caos dos Anos 50
+No final da década de 1950, cada fabricante de computador (como IBM ou UNIVAC) tinha sua própria linguagem de programação.
+
+O Problema: Se uma empresa comprasse um computador novo de outra marca, tinha que reescrever todos os seus programas.
+
+A Necessidade: O Departamento de Defesa dos EUA queria uma linguagem comum que funcionasse em qualquer máquina e que fosse legível por executivos, não apenas por matemáticos.
+
+2. O Comitê CODASYL e Grace Hopper (1959)
+Em maio de 1959, um comitê chamado CODASYL reuniu especialistas do governo e da indústria para criar o COBOL.
+
+A "Mãe do COBOL": Embora muitos tenham contribuído, a Grace Hopper é considerada a figura central. Ela já havia criado a linguagem FLOW-MATIC, que provou que era possível programar usando palavras em inglês em vez de apenas símbolos matemáticos.
+
+O Design: O COBOL foi projetado para parecer prosa inglesa. Em vez de símbolos como +, usava-se ADD. O código era dividido em quatro divisões obrigatórias (Identification, Environment, Data e Procedure), uma estrutura que permanece até hoje.
+
+3. O Domínio Global (Anos 60 – 80)
+O COBOL rapidamente se tornou o padrão para processamento de dados empresariais e governamentais.
+
+Processamento em Lote (Batch): A linguagem era perfeita para lidar com grandes volumes de dados (folhas de pagamento, inventários, contas bancárias).
+
+Mainframes: O COBOL e os computadores de grande porte (Mainframes) da IBM tornaram-se uma dupla inseparável.
+
+Eficiência: Apesar de ser "verboso" (exigir muita escrita), o COBOL é extremamente rápido para operações aritméticas decimais simples, que são a base das finanças.
+
+4. O Bug do Milênio (Anos 90)
+Nos anos 90, o COBOL foi o protagonista de um pânico global.
+
+O Erro: Para economizar memória, muitos programas COBOL antigos armazenavam datas com apenas dois dígitos (ex: 98 para 1998). Temia-se que, no ano 2000 (00), os sistemas entendessem como 1900, causando um colapso financeiro.
+
+O Resgate: Programadores veteranos de COBOL foram tirados da aposentadoria e pagos a peso de ouro para corrigir bilhões de linhas de código. O desastre foi evitado, mas mostrou o quanto o mundo ainda dependia dessa linguagem "velha".
+
+5. COBOL no Século XXI: O Gigante Invisível
+Muitos previram que o COBOL seria substituído por Java ou Python, mas a migração de sistemas bancários gigantescos é extremamente arriscada e cara.
+
+A Modernização: O COBOL evoluiu. Versões modernas suportam Orientação a Objetos, XML e integração com a Web.
+
+Pandemia de 2020: O COBOL voltou às manchetes quando o governo dos EUA precisou desesperadamente de programadores para atualizar sistemas de auxílio-desemprego que estavam sobrecarregados pela crise.
+
+Números Impressionantes: Estima-se que o COBOL ainda processe cerca de 80% das transações presenciais em cartões de crédito e sustente 95% das operações de caixas eletrônicos (ATMs) no mundo.
+
+Por que o COBOL ainda existe?
+------------------------------------------------------------------------------------------------------------------------------
+Resumo: O COBOL não é uma linguagem morta; é a "infraestrutura silenciosa". Assim como os canos de água de uma cidade, você não os vê, mas se eles pararem, a civilização moderna trava.

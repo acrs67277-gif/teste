@@ -1,0 +1,56 @@
+HTML5 e CSS3
+Diferente da Geologia ou da Química, que abrangem milênios, a história do HTML5 e do CSS3 é uma narrativa de "rebelião" tecnológica. É a história de como a web deixou de ser um conjunto de documentos estáticos para se tornar a plataforma de aplicativos que usamos hoje.
+
+Aqui está a cronologia dessa evolução:
+
+1. O Caos Pré-HTML5 (Anos 2000)
+No início dos anos 2000, a web estava estagnada. A W3C (órgão que regula a web) estava focada no XHTML, que era rígido e punia qualquer erro de código com páginas em branco.
+
+A Dependência de Plugins: Se você quisesse ver um vídeo ou ouvir música, precisava do Adobe Flash Player ou Silverlight. O HTML de então (v4.01) não tinha suporte nativo para mídia.
+
+O CSS2.1: Era limitado. Fazer bordas arredondadas ou degradês exigia o uso de imagens de fundo "gambiarras" no Photoshop.
+
+2. A Revolta do WHATWG (2004)
+Frustrados com a lentidão da W3C, funcionários da Apple, Mozilla e Opera formaram o WHATWG (Web Hypertext Application Technology Working Group).
+
+Eles queriam uma web rápida, capaz de rodar aplicações e que não dependesse de plugins proprietários.
+
+Eventualmente, a W3C admitiu que o XHTML era um beco sem saída e adotou o trabalho do WHATWG como base para o HTML5.
+
+3. A Era HTML5: A Web Viva (2008 - 2014)
+O HTML5 não foi apenas uma atualização, foi um manifesto de independência.
+
+O Fim do Flash: Em 2010, Steve Jobs escreveu "Thoughts on Flash", banindo o plugin dos iPhones e impulsionando o uso das tags <video> e <audio> do HTML5.
+
+Novos Poderes: Surgiram elementos semânticos (<header>, <article>, <footer>), o <canvas> para desenhos e jogos, e APIs de geolocalização e armazenamento local.
+
+Padronização: Em 2014, o HTML5 foi finalmente finalizado como "Recomendação" da W3C, embora já fosse usado em todo lugar.
+
+4. A Revolução do CSS3: Beleza e Performance
+Ao contrário das versões anteriores, o CSS3 foi dividido em módulos. Isso permitiu que diferentes funcionalidades (como cores ou fontes) evoluíssem em velocidades diferentes.
+
+Marcos do CSS3:
+Estética Nativa: Introdução de border-radius (bordas redondas), box-shadow (sombras) e gradients sem precisar de imagens.
+
+Animações: As propriedades transition e animation permitiram criar movimentos suaves sem precisar de JavaScript pesado.
+
+Web Fonts: O @font-face libertou o design, permitindo usar qualquer tipografia (como as do Google Fonts) em vez de apenas Arial ou Times New Roman.
+
+Responsividade: Surgiram as Media Queries, a tecnologia que permite que um site se adapte automaticamente à tela de um celular ou de um monitor 4K.
+
+5. O Estado Atual: "Living Standard"
+Hoje, não falamos mais em "HTML6" ou "CSS4" de forma oficial da mesma maneira.
+
+HTML: Agora é um Living Standard (Padrão Vivo). Ele é atualizado continuamente.
+
+CSS Moderno: Recentemente ganhamos o Flexbox e o CSS Grid, que resolveram o maior pesadelo dos desenvolvedores: alinhar elementos na tela. Hoje temos até suporte a variáveis nativas no CSS.
+
+Por que essa dupla mudou o mundo?
+-------------------------------------------------------------
+Característica,Antes (HTML4 / CSS2),Depois (HTML5 / CSS3)
+Vídeo/Áudio,Precisava de Flash (pesado),Nativo e Leve
+Desenho,Apenas Imagens,Tag <canvas> e SVG
+Layout,Tabelas e Floats (difícil),Flexbox e Grid (intuitivo)
+Dispositivos,Sites fixos para desktop,Design Responsivo
+-------------------------------------------------------------
+Resumo: O HTML5 deu o cérebro e os músculos (funcionalidades), enquanto o CSS3 deu a pele e o movimento (estética e animação). Juntos, eles mataram os plugins fechados e tornaram a web aberta, acessível e universal.

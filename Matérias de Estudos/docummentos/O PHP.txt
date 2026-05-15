@@ -1,0 +1,52 @@
+PHP
+A história do PHP é a clássica narrativa do "acidente de percurso" que deu certo. O que começou como uma ferramenta simples para gerenciar um currículo online tornou-se a espinha dorsal de quase 80% da web moderna, alimentando gigantes como WordPress, Wikipedia e Facebook.
+
+Aqui está a evolução da linguagem que democratizou a criação de sites dinâmicos:
+
+1. O Início: Personal Home Page (1994 – 1995)
+Diferente de linguagens criadas por comitês, o PHP foi obra de um único homem, Rasmus Lerdorf.
+
+O Problema: Lerdorf queria saber quantas pessoas estavam visitando seu currículo online. Ele escreveu um conjunto de scripts em C para rastrear essas visitas.
+
+PHP/FI: Ele chamou essas ferramentas de Personal Home Page Tools (PHP Tools). Pouco depois, ele adicionou um "Interpretador de Formulários" (Form Interpreter), resultando no PHP/FI.
+
+Código Aberto: Em 1995, Rasmus liberou o código para o público, não como uma linguagem de programação, mas como uma utilidade para facilitar a vida de quem fazia páginas web.
+
+2. A Transformação em Linguagem (1997 – 1998)
+O PHP/FI ainda era limitado e inconsistente. Foi aí que dois estudantes israelenses, Andi Gutmans e Zeev Suraski, entraram em cena.
+
+A Reescrita: Eles queriam usar o PHP para um projeto universitário de comércio eletrônico, mas acharam o motor interno fraco. Eles reescreveram o núcleo da linguagem do zero.
+
+PHP 3: Lançado em 1998, foi o marco onde o nome mudou para o acrônimo recursivo PHP: Hypertext Preprocessor. Esta versão trouxe a extensibilidade que permitiu ao PHP se conectar a diversos bancos de dados (como o MySQL).
+
+3. A Era Zend e a Explosão da Web (2000 – 2004)
+Com o sucesso do PHP 3, Gutmans e Suraski fundaram a Zend Technologies (Zend = Zeev + Andi) e criaram o Zend Engine.
+
+PHP 4 (2000): Introduziu o novo motor, tornando a linguagem muito mais rápida e estável para aplicações reais. O PHP tornou-se a linguagem padrão do modelo LAMP (Linux, Apache, MySQL, PHP), o kit básico para qualquer site nos anos 2000.
+
+PHP 5 (2004): Foi um salto gigantesco. Introduziu um suporte sólido à Orientação a Objetos, a extensão PDO (para acesso a bancos de dados) e melhorias de performance. Foi nesta base que o WordPress e o Facebook cresceram e dominaram a rede.
+
+4. O Fracasso do PHP 6 e o "Limbo"
+Por volta de 2005, iniciou-se o desenvolvimento do PHP 6, que tinha como foco principal o suporte nativo a Unicode.
+
+O Problema: O projeto foi extremamente ambicioso e complexo. Problemas de performance e falta de desenvolvedores focados fizeram o projeto "derreter".
+
+O Abandono: O PHP 6 foi oficialmente cancelado em 2010. Muitas pessoas acharam que o PHP estava morrendo, enquanto linguagens como Ruby e Python ganhavam espaço.
+
+5. O Renascimento: PHP 7 e 8 (2015 – Hoje)
+Após o trauma do PHP 6, a comunidade decidiu pular a numeração para evitar confusão e lançou o PHP 7.
+
+Performance Dobrada: O PHP 7 trouxe melhorias de velocidade absurdas, reduzindo drasticamente o consumo de memória. Ele recuperou a confiança dos desenvolvedores.
+
+Modernização: Frameworks como Laravel e Symfony profissionalizaram o ecossistema, trazendo padrões de projeto modernos e segurança.
+
+PHP 8 (2020): Introduziu o compilador JIT (Just-In-Time), além de recursos de linguagens modernas como Attributes, Union Types e Match Expressions.
+
+Por que o PHP ainda é o rei da web?
+Fator,Descrição
+Facilidade de Deploy,Quase qualquer servidor no mundo roda PHP sem configuração complexa.
+Ecossistema Gigante,WordPress (que roda ~43% da web) é feito em PHP.
+Comunidade,Milhares de bibliotecas prontas via Composer (gerenciador de pacotes).
+Curva de Aprendizado,É uma das linguagens mais amigáveis para quem está saindo do HTML/CSS.
+--------------------------------------------------------------------------------------------------------------------------
+Resumo: O PHP sobreviveu a crises de identidade e ataques de críticos por ser prático. Ele nasceu para resolver problemas reais da web e, apesar de suas idiossincrasias, continua evoluindo para ser uma linguagem rápida, tipada e extremamente eficiente para o desenvolvimento moderno.
