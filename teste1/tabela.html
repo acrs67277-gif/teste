@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+
+        th#th-1 {
+            text-align: center;
+            font-weight: 500px;
+        }
+
+        tr > th {
+            text-align: center;
+        }
+
+        table > tr, td#td-2 {
+            background-color: blue;
+            color: #fff;
+        }
+
+        table > tr, td#td-3 {
+            background-color: red;
+            color: #fff;
+        } 
+
+        table > tr, td#td-4 {
+            background-color: yellow;
+            color: #000;
+        }
+
+        table > tr, td#td-5 {
+            background-color: green;
+            color: #fff;
+        }
+
+        table > tr, td#td-6 {
+            background-color: orange;
+            color: #000;
+        }
+
+        table > tr, td#td-7 {
+            background-color: Purple;
+            color: #fff;
+        }
+
+        table > tr, td#td-8 {
+            background-color: pink;
+            color: #000;
+        }
+
+        table > tr, td#td-9 {
+            background-color: White;
+            color: #000;
+        }
+
+        table > tr, td#td-10 {
+            background-color: black;
+            color: #fff;
+        }
+
+        table > tr, td#td-11 {
+            background-color: gray;
+            color: #fff;
+        }
+
+        table > tr, td#td-12 {
+            background-color: brown;
+            color: #000;
+        }
+
+        table > tr, td#td-13 {
+            background-color: Gold;
+            color: #000;
+        }
+
+        table > tr, td#td-14 {
+            background-color: Silver;
+            color: #000;
+        }
+
+        table > tr, td#td-15 {
+            background-color: Turquoise;
+            color: #000;
+        }
+
+        section.sessão > p {
+            background-color: #000;
+            color: #dddd05;
+            font-size: 15px;
+            padding: 12px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <th colspan="4" id="th-1">Tabelas de Cores</th>
+        <tr>
+            <th>Português</th>
+            <th>Inglês</th>
+            <th>Hexadecimal</th>
+            <th>RGB</th>
+        </tr>
+        <tr>
+            <td id="td-2">Azul</td>
+            <td id="td-2">Blue</td>
+            <td id="td-2">#0000FF</td>
+            <td id="td-2">rgb(0, 0, 255)</td>
+        </tr>
+        <tr>
+            <td id="td-3">Vermelho</td>
+            <td id="td-3">Red</td>
+            <td id="td-3">#FF0000</td>
+            <td id="td-3">rgb(255, 0, 0)</td>
+        </tr>
+        <tr>
+            <td id="td-4">Amarelo</td>
+            <td id="td-4">Yellow</td>
+            <td id="td-4">#FFFF00</td>
+            <td id="td-4">rgb(255, 255, 0)</td>
+        </tr>
+        <tr>
+            <td id="td-5">Verde</td>
+            <td id="td-5">Green</td>
+            <td id="td-5">#008000</td>
+            <td id="td-5">rgb(0, 128, 0)</td>
+        </tr>
+        <tr>
+            <td id="td-6">Laranja</td>
+            <td id="td-6">Orange</td>
+            <td id="td-6">#FFA500</td>
+            <td id="td-6">rgb(255, 165, 0)</td>
+        </tr>
+        <tr>
+            <td id="td-7">Roxo</td>
+            <td id="td-7">Purple</td>
+            <td id="td-7">#800080</td>
+            <td id="td-7">rgb(128, 0, 128)</td>
+        </tr>
+        <tr>
+            <td id="td-8">Rosa</td>
+            <td id="td-8">Pink</td>
+            <td id="td-8">#FFC0CB</td>
+            <td id="td-8">rgb(255, 192, 203)</td>
+        </tr>
+        <tr>
+            <td id="td-9">Branco</td>
+            <td id="td-9">White</td>
+            <td id="td-9">#FFFFFF</td>
+            <td id="td-9">rgb(255, 255, 255)</td>
+        </tr>
+        <tr>
+            <td id="td-10">Preto</td>
+            <td id="td-10">Black</td>
+            <td id="td-10">#000000</td>
+            <td id="td-10">rgb(0, 0, 0)</td>
+        </tr>
+        <tr>
+            <td id="td-11">Cinza</td>
+            <td id="td-11">Gray</td>
+            <td id="td-11">#808080</td>
+            <td id="td-11">rgb(128, 128, 128)</td>
+        </tr>
+        <tr>
+            <td id="td-12">Marrom</td>
+            <td id="td-12">Brown</td>
+            <td id="td-12">#A52A2A</td>
+            <td id="td-12">rgb(165, 42, 42)</td>
+        </tr>
+        <tr>
+            <td id="td-13">Dourado</td>
+            <td id="td-13">Golden/Gold</td>
+            <td id="td-13">#FFD700</td>
+            <td id="td-13">rgb(255, 215, 0)</td>
+        </tr>
+        <tr>
+            <td id="td-14">Prateado</td>
+            <td id="td-14">Silver</td>
+            <td id="td-14">#C0C0C0</td>
+            <td id="td-14">rgb(192, 192, 192)</td>
+        </tr>
+        <tr>
+            <td id="td-15">Turquesa</td>
+            <td id="td-15">Turquoise</td>
+            <td id="td-15">#40E0D0</td>
+            <td id="td-15">rgb(64, 224, 208)</td>
+        </tr>
+    </table>
+    <header>
+        <h1>1. As Raízes Antigas (Antes dos Computadores)</h1>
+            <div>
+                <ul>
+                    <li>
+                        A história do sistema hexadecimal (base 16) é fascinante porque ela não nasceu de uma grande 
+                        revelação matemática antiga, mas sim da pura <strong>necessidade prática</strong> durante o nascimento da 
+                        computação moderna.
+                    </li>
+                    <li>Vamos viajar no tempo para entender como saímos dos dez dedos das mãos para as letras de A a F</li>
+                    <li>Embora o hexadecimal explodisse com a computação, a ideia de usar bases diferentes de 10 ou 2 não é nova.</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <strong>O sistema duodecimal (base 12):</strong>Usado por civilizações antigas 
+                        (como os sumérios e babilônios) porque 12 é um número altamente divisível (por 2, 3, 4 e 6). 
+                        É por isso que temos 12 meses no ano, 24 horas no dia e compramos ovos em dúzias.
+                    </li>
+                    <li>
+                        <strong>O sistema sexagesimal (base 60):</strong>Também dos babilônios, 
+                        usado até hoje para medir ângulos e o tempo (60 minutos, 60 segundos).
+                    </li>
+                </ul>
+            </div>
+            <ol>
+                A ideia de usar a base 16 especificamente começou a fazer sentido quando os 
+                matemáticos perceberam que ela é uma **potência perfeita de 2** ($2^4 = 16$).
+            </ol>
+        <h2>2. O Boom da Computação e o Problema do Binário</h2>
+            <div>
+                <ul>
+                    <li>
+                        Nos anos 1940 e 1950, os primeiros computadores digitais modernos (como o ENIAC) 
+                        operavam logicamente em **binário** (base 2: zeros e uns). 
+                        Para os circuitos eletrônicos, isso era perfeito: ligado (1) ou desligado (0).
+                    </li>
+                    <li>
+                        Porém, para os programadores humanos, ler binário era um pesadelo. 
+                        Imagine olhar para uma tela ou papel perfurado cheio de:`1101101010111110`
+                    </li>
+                </ul>
+            </div>
+            <ol>
+                Qualquer erro de digitação de um único "0" ou "1" destruía o programa inteiro. 
+                Era preciso achar uma forma humana de condensar aquilo.
+            </ol>
+        <h2>3. O Primo "Octal" (Base 8) veio primeiro</h2>
+            <ol>Antes do hexadecimal dominar o mundo, o <strong>sistema octal</strong> (base 8) era o favorito.</ol>
+            <div>
+                <ul>
+                    <li>
+                        Ele agrupa os bits de 3 em 3 ($2^3 = 8$).
+                    </li>
+                    <li>
+                        Usava apenas os números de 0 a 7, o que era ótimo porque os humanos não precisavam inventar novos símbolos.
+                    </li>
+                    <li>
+                        Computadores antigos de marcas como a PDP e a IBM usavam palavras de 12, 24 ou 36 bits, 
+                        que eram perfeitamente divisíveis por 3.
+                    </li>
+                </ul>
+            </div>
+            <ol>No entanto, a arquitetura dos computadores mudou drasticamente na década de 1960.</ol>
+        <h2>4. O Nascimento do Byte e do Hexadecimal Moderno</h2>
+            <div>
+                <ul>
+                    <li>
+                        Em 1964, a IBM lançou a família de computadores <strong>System/360.</strong>
+                        Foi uma revolução. A IBM padronizou que a unidade fundamental de memória seria o <strong>Byte</strong>, 
+                        composto por <strong>8 bits</strong>.
+                    </li>
+                    <li>É aqui que o octal perde o trono e o hexadecimal assume o controle:</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        Um byte de 8 bits não divide perfeitamente em grupos de 3 bits (octal). Sobrariam bits isolados.
+                    </li>
+                    <li>
+                        Mas divide <strong>perfeitamente em dois grupos de 4 bits</strong> ($4 + 4 = 8$). 
+                        Cada grupo de 4 bits é chamado de <strong>nibble</strong>.
+                    </li>
+                    <li>
+                        Como $2^4 = 16$, a base ideal para representar um nibble era a base 16 (hexadecimal).
+                    </li>
+                    <ol>
+                        Com o hexadecimal, qualquer byte de 8 bits (que vai de `00000000` a `11111111`) 
+                        pode ser escrito com <strong>apenas dois caracteres</strong> (de `00` a `FF`). 
+                        Aquela sequência enorme do exemplo anterior (`1101101010111110`) vira simplesmente `DABE`. 
+                        Muito mais fácil de ler e lembrar.
+                    </ol>
+                </ul>
+            </div>
+        <h2>5. A Grande Disputa: Quais símbolos usar?</h2>
+            <ol>
+                <strong>O maior desafio prático do hexadecimal era:</strong> como representar os valores de 10 a 15 
+                com um único caractere? Se escrevêssemos "10", o computador não saberia se era o número dez ou o 
+                número um seguido do zero.
+            </ol>
+            <ol>Diferentes empresas tentaram soluções bizarras nos anos 50 e 60:</ol>
+            <ol>
+                <li>Bendix G-15 (1955):** Usava as letras **U, V, W, X, Y, Z**.</li>
+                <li>LGP-30 (1956):** Usava **F, G, J, K, Q, W**.</li>
+                <li>
+                    <strong>Pacific Data Systems (1964):</strong>Chegou a sugerir o uso de caracteres especiais como <strong>L, C, A, S, M, P</strong>
+                    (iniciais de <strong>Large, Counter, All, Start, Minimize, Punch</strong>).
+                </li>
+            </ol>
+        <h2>A Padronização da IBM (A-F)</h2>
+            <ol>
+                O debate acabou quando a IBM adotou oficialmente as letras **A, B, C, D, E, F** 
+                para representar os valores de 10 a 15 no System/360.
+            </ol>
+            <table>
+                <tr>
+                    <th>Decimal</th>
+                    <th>Binário</th>
+                    <th>Hexadecimal</th>
+                </tr>
+                <tr>
+                    <td>0 a 9</td>
+                    <td>`0000` a `1001`</td>
+                    <td>**0 a 9**</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>`1010`</td>
+                    <td>**A**</td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>`1011`</td>
+                    <td>**B**</td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>`1100`</td>
+                    <td>**C**</td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>`1101`</td>
+                    <td>**D**</td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td>`1110`</td>
+                    <td>**E**</td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td>`1111`</td>
+                    <td>**F**</td>
+                </tr>
+            </table>
+    </header>
+</body>
+</html>

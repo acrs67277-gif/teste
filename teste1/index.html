@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hexágono Colorido</title>
+
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #f2f2f2;
+      font-family: Arial, sans-serif;
+    }
+
+    .hexagono {
+      position: relative;
+      width: 300px;
+      height: 260px;
+    }
+
+    .lado {
+      position: absolute;
+      height: 10px;
+      border-radius: 10px;
+      transform-origin: left center;
+    }
+
+    /* Lados do hexágono */
+
+    .lado1 {
+      width: 150px;
+      background: red;
+      top: 0;
+      left: 75px;
+      transform: rotate(0deg);
+    }
+
+    .lado2 {
+      width: 150px;
+      background: orange;
+      top: 0;
+      right: 0;
+      transform: rotate(600deg);
+    }
+
+    .lado3 {
+      width: 150px;
+      background: yellow;
+      top: 130px;
+      right: -38px;
+      transform: rotate(120deg);
+    }
+
+    .lado4 {
+      width: 150px;
+      background: green;
+      bottom: 0;
+      left: 75px;
+      transform: rotate(80deg);
+    }
+
+    .lado5 {
+      width: 150px;
+      background: blue;
+      bottom: 0;
+      left: 0;
+      transform: rotate(-60deg);
+    }
+
+    .lado6 {
+      width: 150px;
+      background: purple;
+      top: 130px;
+      left: -38px;
+      transform: rotate(-150deg);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="hexagono">
+    <div class="lado lado1"></div>
+    <div class="lado lado2"></div>
+    <div class="lado lado3"></div>
+    <div class="lado lado4"></div>
+    <div class="lado lado5"></div>
+    <div class="lado lado6"></div>
+  </div>
+
+</body>
+</html>
+</body>
+</html>
