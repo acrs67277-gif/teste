@@ -13,14 +13,24 @@
         }
 
         header {
+            background-color: darkgray;
             max-width: 700px;
             margin: auto;
         }
 
-        header > h1, h2 {
+        header > h1 {
             background-color: #000;
             color: #fff;
             padding: 10px;
+            margin-top: 8px;
+            border-radius: 3px;
+        }
+
+        header > h2 {
+            background-color: #000;
+            color: #fff;
+            padding: 10px;
+            margin-top: 8px;
             border-radius: 3px;
         }
 
@@ -66,6 +76,42 @@
             padding: 3px;
             text-align: center;
         }
+
+        aside.decimal {
+            background-color: #056464;
+            color: #fff;
+            padding: 8px;
+        }
+
+        aside.decimal > p#dec {
+            color: #ccc;
+        }
+
+        p#dec-I {
+            color: #006321;
+            padding: 8px;
+        }
+
+        strong {
+            color: orangered;
+        }
+
+        i {
+            color: yellow;
+        }
+
+        footer p#dec-I {
+            background-color: #000;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            border-radius: 3px;
+        }
+
+        footer p#dec-I {
+            margin-right: 28%;
+            margin-left: 28%;
+        }
     </style>
 </head>
 <body>
@@ -97,14 +143,14 @@
             </div>
             <ol class="l-I">
                 A ideia de usar a base 16 especificamente começou a fazer sentido quando os 
-                matemáticos perceberam que ela é uma **potência perfeita de 2** ($2^4 = 16$).
+                matemáticos perceberam que ela é uma <i>**potência perfeita de 2**</i> ($2^4 = 16$).
             </ol>
         <h2>2. O Boom da Computação e o Problema do Binário</h2>
             <div>
                 <ul>
                     <li>
                         Nos anos 1940 e 1950, os primeiros computadores digitais modernos (como o ENIAC) 
-                        operavam logicamente em **binário** (base 2: zeros e uns). 
+                        operavam logicamente em <i>**binário**</i> (base 2: zeros e uns). 
                         Para os circuitos eletrônicos, isso era perfeito: ligado (1) ou desligado (0).
                     </li>
                     <li>
@@ -138,7 +184,7 @@
             <div>
                 <ul>
                     <li>
-                        Em 1964, a IBM lançou a família de computadores <strong>System/360.</strong>
+                        Em 1964, a IBM lançou a família de computadores <strong>System/360</strong>.
                         Foi uma revolução. A IBM padronizou que a unidade fundamental de memória seria o <strong>Byte</strong>, 
                         composto por <strong>8 bits</strong>.
                     </li>
@@ -173,16 +219,16 @@
             </ol>
             <ol>Diferentes empresas tentaram soluções bizarras nos anos 50 e 60:</ol>
             <ol>
-                <li>Bendix G-15 (1955):** Usava as letras **U, V, W, X, Y, Z**.</li>
-                <li>LGP-30 (1956):** Usava **F, G, J, K, Q, W**.</li>
+                <li>Bendix G-15 (1955):** Usava as letras <i>**U, V, W, X, Y, Z**</i>.</li>
+                <li>LGP-30 (1956): <i>** Usava F, G, J, K, Q, W**</i>.</li>
                 <li>
                     <strong>Pacific Data Systems (1964):</strong>Chegou a sugerir o uso de caracteres especiais como <strong>L, C, A, S, M, P</strong>
-                    (iniciais de <strong>Large, Counter, All, Start, Minimize, Punch</strong>).
+                    (iniciais de <i>Large, Counter, All, Start, Minimize, Punch</i>).
                 </li>
             </ol>
         <h2>A Padronização da IBM (A-F)</h2>
-            <ol>
-                O debate acabou quando a IBM adotou oficialmente as letras **A, B, C, D, E, F** 
+            <ol style="color: #056464;">
+                O debate acabou quando a IBM adotou oficialmente as letras <i>**A, B, C, D, E, F** </i>
                 para representar os valores de 10 a 15 no System/360.
             </ol>
             <table>
@@ -233,40 +279,75 @@
                     <td id="td-1">**F**</td>
                 </tr>
             </table>
-        Como as letras de A a F já existiam em todas as máquinas 
-        de escrever e Teletipos da época, não foi necessário criar 
-        novas teclas ou fontes. Foi uma decisão puramente econômica 
-        e prática.
-        6. O Nome: Um Erro Gramatical?
-        O termo "Hexadecimal" foi popularizado também pela IBM. 
-        Antes, usava-se o termo correto em latim sexadecimal.
-        Diz a lenda que os engenheiros da IBM achavam "sexadecimal" 
-        uma palavra um tanto... informal ou sugestiva demais para os 
-        escritórios corporativos da época. Então, decidiram misturar 
-        o grego hexa (seis) com o latim decem (dez).
-        Embora linguistas torçam o nariz para essa mistura de idiomas
-        no mesmo prefixo, o nome pegou e virou o padrão da indústria.
-        7. O Hexadecimal Hoje
-        Hoje, você não precisa ser um programador de baixo nível para 
-        esbarrar no hexadecimal. Ele está em toda parte na web e no 
-        design:
-        *Cores na Web (RGB): O famoso código de cores CSS 
-        (ex: #FFFFFF para branco, #000000 para preto, ou #FF5733 para um tom de laranja). 
-        Cada par de caracteres representa a intensidade de Vermelho 
-        (R), Verde (G) e Azul (B) em um byte (0 a 255).
-        *Endereços de IP (IPv6): Com o esgotamento do IPv4, o novo 
-        protocolo de internet usa endereços hexadecimais longos 
-        (ex: 2001:0db8:85a3:0000:0000:8a2e:0370:7334) para suportar 
-        trilhões de novos dispositivos.
-        *Endereços MAC: A "identidade" física da placa de rede do seu 
-        celular ou computador.
-        O hexadecimal sobreviveu ao teste do tempo porque serve como a 
-        ponte perfeita: traduz a linguagem matemática fria e longa dos 
-        computadores para algo que o olho humano consegue escanear e 
-        entender rapidamente.
+        <p style="padding: 8px; color: hsl(84, 93%, 16%); margin: 8px;">
+            Como as letras de A a F já existiam em todas as máquinas 
+            de escrever e Teletipos da época, não foi necessário criar 
+            novas teclas ou fontes. Foi uma decisão puramente econômica 
+            e prática.
+        </p>
+        
+        <h2>6. O Nome: Um Erro Gramatical?</h2>
+
+        <aside class="decimal">
+            <p id="dec">
+                O termo "Hexadecimal" foi popularizado também pela IBM. 
+                Antes, usava-se o termo correto em latim sexadecimal.
+            </p>
+
+            <p id="dec">
+                Diz a lenda que os engenheiros da IBM achavam "sexadecimal" 
+                uma palavra um tanto... informal ou sugestiva demais para os 
+                escritórios corporativos da época. Então, decidiram misturar 
+                o grego hexa (seis) com o latim decem (dez).
+            </p>
+            
+            <p id="dec">
+                Embora linguistas torçam o nariz para essa mistura de idiomas
+                no mesmo prefixo, o nome pegou e virou o padrão da indústria.
+            </p>
+        </aside>
+       
+
+        <h2>7. O Hexadecimal</h2> <br>
+
+        <p id="dec-I">
+            Hoje, você não precisa ser um programador de baixo nível para 
+            esbarrar no hexadecimal. Ele está em toda parte na web e no 
+            design:
+        </p>
+
+        <div>
+            <ul>
+                <li>
+                    <strong>Cores na Web (RGB):</strong> O famoso código de cores CSS 
+                    (ex: #FFFFFF para branco, #000000 para preto, ou #FF5733 para um tom de laranja). 
+                    Cada par de caracteres representa a intensidade de Vermelho 
+                    (R), Verde (G) e Azul (B) em um byte (0 a 255).
+                </li>
+                <li>
+                    <strong>Endereços de IP (IPv6):</strong> Com o esgotamento do IPv4, o novo 
+                    protocolo de internet usa endereços hexadecimais longos 
+                    (ex: 2001:0db8:85a3:0000:0000:8a2e:0370:7334) para suportar 
+                    trilhões de novos dispositivos.
+                </li>
+                <li>
+                    <strong>Endereços MAC:</strong> A "identidade" física da placa de rede do seu 
+                    celular ou computador.
+                </li>
+            </ul>
+        </div>
+        
+
+        <p id="dec-I">
+            O hexadecimal sobreviveu ao teste do tempo porque serve como a 
+            <i>ponte perfeita:</i> traduz a linguagem matemática fria e longa dos 
+            computadores para algo que o olho humano consegue escanear e 
+            entender rapidamente.
+        </p>
+
     </header>
     <footer>
-        <p>
+        <p id="dec-I">
             Texto gerado por IA.
         </p>
     </footer>
