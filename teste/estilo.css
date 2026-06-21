@@ -1,0 +1,69 @@
+@charset "utf-8";
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #000;
+  color: white;
+}
+
+header {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #000;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  
+}
+.menu-links {
+  display: flex;       /* Ativa o modo lado a lado */
+  gap: 20px;           /* Cria um espaço de 20px entre cada link */
+  justify-content: center; /* Opcional: centraliza os links na tela */
+}
+
+.container, a {
+  display: flex;
+  gap: 20px; /* Cria 20px de espaço apenas ENTRE os itens */
+  background-color: #525151;
+  font-size: large;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid yellow;
+  border-radius: 1000px 122px 1222px 100px;
+}
+
+nav {
+  background-color: aliceblue;
+  max-width: 766px;
+  height: 455px;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+a {
+  color: aliceblue;
+}
+
+.container, a:hover {
+  color: #ff0000;
+  text-decoration: none;
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+section, p {
+  background-color: #ff0000;
+  color: #fff;
+  margin: 10px auto;
+  padding: 10px;
+  max-width: 766px;
+}
+
+div > p#link {
+  background: #000;
+  color: #00ff00;
+  text-indent: 20px;
+  text-align: justify;
+  padding: 10px;
+  margin: 10px;
+}
